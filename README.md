@@ -51,6 +51,3 @@
 * Task list also has option to delete the task as well. 
     * This will send a DELETE request to the backend at "/api/task/:id"
 * Below table there are options to filter by completed and priority fields. It is possible to filter by both.
-
-# In case of application not working:
-* Contact me at carlguo2@illinois.edu
