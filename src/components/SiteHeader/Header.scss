@@ -1,0 +1,40 @@
+$header-background-color: rgb(40,44,52);
+$header-text-color: rgb(223, 217, 217);
+
+.header-container {
+	background-color: $header-background-color;
+	height: 13vh;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+
+    .nav-links {
+		margin: 0em 1.5em;
+		text-align: center;
+		color: $header-text-color;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+
+		.header-icon {
+			margin: 0em 1em 0em 0em;
+		}
+
+		.title {
+			font-size: 1.75em;
+			font-weight: bold;
+			padding-right: 1.5em;
+		}
+
+        .link-item {
+            font-size: 1.2em;
+			padding: auto;
+
+            .link {
+                color: $header-text-color;
+				margin: 0em 1em;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,59 @@
+.list-container {
+    max-width: 90%;
+    margin: auto;
+
+    .list-header {
+        margin: 1em 0em;
+    }
+
+    .task-table {
+        width: 100%;
+
+        .tdata-row {
+            text-align: left;
+            
+            .priority-cell {
+                text-align: center;
+            }
+
+            // https://stackoverflow.com/questions/36418352/css-word-wrap-break-word-wont-work/36555643
+            .desc-cell {
+                word-wrap: break-word;
+                word-break: break-all;
+                word-break: break-word;
+                hyphens: auto;
+            }
+
+            .edit-cell {
+                text-align: center;            
+            }
+
+            .delete-cell {
+                text-align: center;
+            }
+        }
+    }
+
+    .filter-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin-top: 2.5em;
+    
+        .drop-container {
+            margin: 0 1.5em 4em 1.5em;
+    
+            .drop-label {
+                font-weight: bold;
+            }
+    
+            .filter-drop {
+                margin: 0 2em 0 1em;
+            }
+        }
+    }
+}
+
+

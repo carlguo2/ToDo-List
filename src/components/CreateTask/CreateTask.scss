@@ -1,0 +1,22 @@
+.create-container {
+    max-width: 80%;
+    margin: auto;
+
+    .create-header {
+        margin: 1em 0;
+        font-weight: bolder;
+        font-size: xx-large;
+    }
+
+    .form-input-line-break {
+        margin: 1em 0;
+    }
+
+    .form-line-break {
+        margin: 2em 0;
+    }
+
+    .desc-input {
+        min-height: 10em;
+    }
+}
